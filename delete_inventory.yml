@@ -8,3 +8,4 @@
       organization: "Default"
       state: absent
       validate_certs: false
+      tower_oauthtoken: "E6Wo4obX6RbBb9zDyCOtf4M5WQLaeu"
