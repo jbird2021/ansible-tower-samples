@@ -1,0 +1,10 @@
+- name: oauthtoken
+  hosts: localhost
+  gather_facts: False
+  tasks:   
+  - name: Add tower inventory
+    tower_inventory:
+      name: "test_inv_1"
+      organization: "Default"
+      state: absent
+      validate_certs: false
