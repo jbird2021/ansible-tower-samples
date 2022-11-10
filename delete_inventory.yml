@@ -8,4 +8,5 @@
       organization: "Default"
       state: absent
       validate_certs: false
+      tower_host: "52.15.34.20"
       tower_oauthtoken: "E6Wo4obX6RbBb9zDyCOtf4M5WQLaeu"
