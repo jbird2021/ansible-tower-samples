@@ -2,7 +2,7 @@
   hosts: localhost
   gather_facts: False
   vars:
-    ansible_python_interpreter: "3.6.8"
+    ansible_python_interpreter=/usr/bin/python3
   tasks:   
     - name: Say Hello
       debug:
