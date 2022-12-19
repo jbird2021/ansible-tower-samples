@@ -5,7 +5,3 @@
     - name: Say Hello
       debug:
         msg: "Hello World!"
-    - name: format the xfs filesystem
-      community.general.filesystem:
-        fstype: xfs
-        dev: /dev/mwapps-vg/mwapps-lv
