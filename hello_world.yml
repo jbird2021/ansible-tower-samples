@@ -1,8 +1,6 @@
 - name: Hello World Sample
   hosts: localhost
   gather_facts: False
-  vars:
-    ansible_python_interpreter: "/usr/bin/python"
   tasks:   
     - name: Say Hello
       debug:
