@@ -1,4 +1,5 @@
 ---
 collections:
 #- community.general
-- awx.awx
+#- awx.awx
+- cloud.terraform
