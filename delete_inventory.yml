@@ -2,11 +2,11 @@
   hosts: localhost
   gather_facts: False
   tasks:   
-  - name: Add tower inventory
+  - name: Add tower inventory 2
     tower_inventory:
       name: "test_inv_1"
       organization: "Default"
       state: absent
       validate_certs: false
-      tower_host: "52.15.34.20"
-      tower_oauthtoken: "E6Wo4obX6RbBb9zDyCOtf4M5WQLaeu"
+      tower_host: "10.0.110.81"
+      tower_oauthtoken: "thisisatesttoken"
